@@ -1,0 +1,20 @@
+[project]
+name = "gradient-descent"
+version = "0.1.0"
+description = "Scripts accompining the paper: Implicit Bias of (Stochastic) Gradient Descent on Linear Deep Diagonal Networks"
+readme = "README.md"
+authors = [
+    { name = "Wiebke Bartolomaeus", email = "bartolomaeus@math.lmu.de" }
+]
+requires-python = ">=3.11.8"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+]
+
+[project.scripts]
+gradient-descent = "gradient_descent.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

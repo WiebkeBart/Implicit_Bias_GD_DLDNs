@@ -1,0 +1,30 @@
+
+# Slurm logs
+*.out
+*.err
+*.error
+
+# Logs directory
+logs/
+plots/
+data/
+.idea/
+
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.DS_Store
+plots/.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+*.ipynb
+
+## Environment variables
+.venv/
+uv.lock
