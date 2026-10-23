@@ -2,9 +2,10 @@
 
 Code accompanying the paper:
 
-**Implicit Bias of (Stochastic) Gradient Descent on Linear Deep Diagonal Networks**
+**Implicit Bias of (Stochastic) Gradient Descent on Deep Linear Diagonal Networks**
 
-by Wiebke Bartolomaeus and Holger Rauhut  [ paper link, and publication details will be made available once at hand]
+by Wiebke Bartolomaeus and Holger Rauhut 
+[paper link, and publication details will be made available once at hand]
 
 This project studies gradient descent (GD) and stochastic gradient
 descent (SGD) on synthetic sparse-recovery problems using deep diagonal
@@ -22,9 +23,9 @@ Requirements:
 Clone the repository and select the release associated with the paper:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/WiebkeBart/Implicit_Bias_GD_DLDNs.git
 cd Gradient_Descent
-git checkout <paper-release-tag>
+git checkout first-version
 uv sync --locked
 ```
 `uv sync --locked` creates the local environment using the recorded dependencies.
